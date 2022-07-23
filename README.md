@@ -1,4 +1,4 @@
-## GoogleSearch UI test suite
+## GoogleSearch UI test suite :wave:
 - The project contains 1 feature file and 1 Runner and 1 steps definition class
 - You can run the googleSearch Ui test cases by running the uiTestSuite from IDE directly or from command line as
   ```
