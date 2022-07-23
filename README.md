@@ -1,9 +1,9 @@
 ## GoogleSearch UI test suite :wave:
 - The project contains 1 feature file and 1 Runner and 1 steps definition class
 - You can run the googleSearch Ui test cases by running the uiTestSuite from IDE directly or from command line as
-  ```
-  mvn clean test -DsuiteXmlFile=uiTestSuite.xml
-  ```
+ ```
+ mvn clean test -DsuiteXmlFile=uiTestSuite.xml
+ ```
 
 - I added only chrome browser for running UI but with both normal and headless mode
 - You can run UI test cases in Headless mode with chrome by edit the browser name in
