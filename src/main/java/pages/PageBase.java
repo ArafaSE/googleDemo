@@ -31,16 +31,6 @@ public class PageBase {
         enterElement.sendKeys(Keys.ENTER);
     }
 
-    public float removeCurrencyFromPrice(String cost) {
-        // get the total cost
-        String[] arrOfstr = cost.split("");
-        cost="";
-
-        for (int a = 1; a < arrOfstr.length; a++)
-            cost+=arrOfstr[a];
-
-        return Float.parseFloat(cost);
-    }
 
     protected void waitUntilElementBeVisible(WebDriver driver, WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver, 10);
