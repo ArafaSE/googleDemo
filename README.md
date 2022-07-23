@@ -30,18 +30,19 @@ also I take a screenshot for it and save them in /screenshots folder
 - but you need to install Allure in your local machine to be able to read these reports
 
 - If you are on **windows** you can execute the bellow commands to install Allure:  :shipit:
-
+'''
   >Set-ExecutionPolicy RemoteSigned -scope CurrentUser
   >iwr -useb get.scoop.sh | iex
   >scoop install allure
-
+'''
 - if you run on **Linux**:
+```
   >sudo apt-add-repository ppa:qameta/allure
   >sudo apt-get update
   >sudo apt-get install allure
-
+```
 - If you are a lucky man and run on **Mac** it's only one command:
- >brew install allure
+  >brew install allure
 
 - After install the Allure on your machine and run the one testSuites API or UI justrun this command to open the report:
-   >allure serve allure-results  :tada:
+  >allure serve allure-results  :tada:
