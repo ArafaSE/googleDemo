@@ -1,6 +1,6 @@
-#GoogleSearch UI test suite
-- The project contains 1 feature file and 1 Runner and 1 steps definition class
-- You can run the googleSearch Ui test cases by running the uiTestSuite from IDE directly or from command line as
+## GoogleSearch UI test suite
+* The project contains 1 feature file and 1 Runner and 1 steps definition class
+* You can run the googleSearch Ui test cases by running the uiTestSuite from IDE directly or from command line as
   >mvn clean test -DsuiteXmlFile=uiTestSuite.xml
 
 - I added only chrome browser for running UI but with both normal and headless mode
@@ -10,7 +10,7 @@
 - Tech Stack: Selenium JAVA, TestNG, Cucumber and Page Object Model pattern.
 
 
-#api test Suite
+## api test Suite
 - All api test cases added into 1 test class "tests/ApiTest"
 
 - You can run API test suite from terminal as
