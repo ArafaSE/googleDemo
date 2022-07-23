@@ -27,7 +27,7 @@
 also I take a screenshot for it and save them in /screenshots folder
 
 
-## The Reports
+## The Reports :tada:
 - The project use the **Allure** report for generating the reports after running
 - The reports files located in project root file under /allure-results folder
 - but you need to install Allure in your local machine to be able to read these reports
@@ -50,5 +50,5 @@ also I take a screenshot for it and save them in /screenshots folder
 ```
 - After install the Allure on your machine and run the one testSuites API or UI justrun this command to open the report:
  ```
- allure serve allure-results  :tada:
+ allure serve allure-results
  ```
