@@ -30,11 +30,11 @@ also I take a screenshot for it and save them in /screenshots folder
 - but you need to install Allure in your local machine to be able to read these reports
 
 - If you are on **windows** you can execute the bellow commands to install Allure:  :shipit:
-'''
+```
   >Set-ExecutionPolicy RemoteSigned -scope CurrentUser
   >iwr -useb get.scoop.sh | iex
   >scoop install allure
-'''
+```
 - if you run on **Linux**:
 ```
   >sudo apt-add-repository ppa:qameta/allure
