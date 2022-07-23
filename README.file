@@ -8,9 +8,9 @@
   uiTestSuite.xml file in line 5 to be 'chrome-headles' instead of 'chrome'
 
 - Tech Stack: Selenium JAVA, TestNG, Cucumber and Page Object Model pattern.
+– [x] Selenium
 
-
-## api test Suite
+## api test Suite :upside_down_face:
 - All api test cases added into 1 test class "tests/ApiTest"
 
 - You can run API test suite from terminal as
@@ -19,7 +19,7 @@
 - tech Stack: restAssured with java
 
 
-## The logger in the project
+## The logger in the project :smiley:
 - I Only log the error level when test cases failed in the test bas,
 also I take a screenshot for it and save them in /screenshots folder
 
@@ -30,7 +30,7 @@ also I take a screenshot for it and save them in /screenshots folder
 - but you need to install Allure in your local machine to be able to read these reports
 
 - If you are on **windows** you can execute the bellow commands to install Allure: :shipit:
-  >Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+  "'>Set-ExecutionPolicy RemoteSigned -scope CurrentUser
   >iwr -useb get.scoop.sh | iex
   >scoop install allure
 
